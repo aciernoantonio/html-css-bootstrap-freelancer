@@ -1,4 +1,9 @@
 .debug [class^="col"] {
-    background-color: aquamarine;
+    background-color: brown;
     height: 100px;
+}
+
+.debug main [class^="col"] {
+    background-color: aquamarine;
+    height: 300px;
 }
