@@ -1,10 +1,10 @@
 .debug [class^="col"] {
     background-color: brown;
-    height: 100px;
+    min-height: 100px;
 }
 
 .debug main [class^="col"] {
     background-color: aquamarine;
-    height: 300px;
+    min-height: 300px;
 }
 
