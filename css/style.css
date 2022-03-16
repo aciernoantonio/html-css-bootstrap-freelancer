@@ -1,10 +1,23 @@
-.debug [class^="col"] {
-    background-color: brown;
-    min-height: 100px;
+/* utility */
+
+:root {
+    --bg-primary: #1ABC9C;
+    --bg-secondary: #2C3E50;
+    --gb-darker: #3A546D;
+
 }
+
+/* debug */
 
 .debug main [class^="col"] {
     background-color: aquamarine;
     min-height: 300px;
 }
 
+.bg_primary{
+    background-color: var(--bg-primary);
+}
+
+.bg_secondary{
+    background-color: var(--bg-secondary);
+}
