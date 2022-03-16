@@ -9,11 +9,11 @@
 
 /* debug */
 
-.debug main [class^="col"] {
+/* .debug main [class^="col"] {
     background-color: aquamarine;
     min-height: 300px;
 }
-
+ */
 .bg_primary{
     background-color: var(--bg-primary);
 }
