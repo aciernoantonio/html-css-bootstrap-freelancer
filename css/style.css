@@ -3,7 +3,7 @@
 :root {
     --bg-primary: #1ABC9C;
     --bg-secondary: #2C3E50;
-    --gb-darker: #3A546D;
+    --bg-darker: #3A546D;
 
 }
 
@@ -20,4 +20,12 @@
 
 .bg_secondary{
     background-color: var(--bg-secondary);
+}
+
+.bg_darker{
+    background-color: var(--bg-darker);
+}
+
+.primary_color{
+    color: var(--bg-primary);
 }
